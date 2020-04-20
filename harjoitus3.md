@@ -3,7 +3,7 @@ https://www.hakaverkko.wordpress.com/palvelinten-hallinta
 
 ## Harjoitus 3 - Versionhallinta
 
-Harjoitus alkoi 20.4.2020 klo 19:55
+###### Harjoitus alkoi 20.4.2020 klo 19:55
  
 ### a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
 
@@ -33,7 +33,7 @@ jotta salasanaa ei tarvitse antaa jatkuvasti.
 ja siirryin kansioon:
 	 `cd harjoitus3/ `
 
-7. Tein kansioon tiedoston md-tiedoston:
+7. Tein kansioon md-tiedoston:
 	`nano harjoitus3.md`
 
 8. Annoin komennon:
@@ -43,6 +43,9 @@ ja siirryin kansioon:
 ### d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 1. git log:
 ![]( log.png )
+
+2. git diff:
+
 
 ### e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
