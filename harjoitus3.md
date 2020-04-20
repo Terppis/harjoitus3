@@ -7,9 +7,10 @@ https://www.hakaverkko.wordpress.com/palvelinten-hallinta
  
 ### a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
 
-Seurasin harjoituksessa seuraavaa Tero Karvisen ohjetta: http://terokarvinen.com/2016/publish-your-project-with-github
+Seurasin harjoituksessa seuraavaa Tero Karvisen ohjetta:
+http://terokarvinen.com/2016/publish-your-project-with-github
 
-1. Aloitin luomalla repositoryn Githubissa. Valitsin lisenssiksi GPL-lisenssin sekä valinnan että repoon luodaan readme.md-tiedosto. 
+1. Aloitin luomalla repositoryn Githubissa. Valitsin lisenssiksi GPL-lisenssin ja otin valinnan että repositoryyn luodaan readme.md-tiedosto. 
 
 2. Annoin peruskomennot terminaalissa:
 	`setxkbmap fi`
@@ -45,13 +46,13 @@ ja siirryin kansioon:
 
 ![]( log.png )
 
-lokista näkyy milloin muutos on tehty ja kuka sen on tehnyt. Lisäksi nähdään commitin kuvaus "add text to the harjoitus.."
+Lokista näkyy milloin muutos on tehty ja kuka sen on tehnyt. Lisäksi nähdään commitin kuvaus "add text to the harjoitus.."
 
 2.`git diff`
  
 ![]( diff.png )
 
-Nähdään muutokset, joita ei ole commitattu vielä githubiin
+Nähdään muutokset, joita ei ole commitattu vielä githubiin.
 
 3.`git blame harjoitus3.md`
 
@@ -65,6 +66,8 @@ Nähdään kuka on muuttanut kyseistä tiedostoa ja milloin. (muutin käyttäjä
 2. Annoin komennon: `git reset --hard `
 
 ![]( reset.png )
+
+Viimeisimmän commitin muutokset on otettu käyttöön.
 
 ### f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
 
@@ -98,9 +101,9 @@ Tiedoston sisälle laitoin:
 
 Minioniin ei saatu yhteyttä ja tässä kohtaa virtuaalikoneeni oli jäätynyt.
 
-Avasin virtuaalikoneen uudelleen sain sen toimimaan, mutta se toimi niin hitaasti, että ajan säästämiseksi jätin ongelmanratkaisun tähän.
+Avasin virtuaalikoneen uudelleen ja sain sen toimimaan, mutta se toimi niin hitaasti, että ajan säästämiseksi jätin ongelmanratkaisun tähän.
 
-Olin mahdollisesti laittanut epähuomiossa liian vähän muistia koneen käyttöön.
+Olin mahdollisesti laittanut epähuomiossa liian vähän muistia koneen käyttöön. Muistin tilaakaan en pystynyt tarkastamaan, koska virtuaalikone jäätyili jatkuvasti.
 
 ###### Harjoitus päättyi 21.4.2020 klo 0.45
 
