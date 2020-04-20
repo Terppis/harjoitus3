@@ -47,11 +47,11 @@ ja siirryin kansioon:
 
 2.`git diff`
  
-![]( diff.png )
+![]( /home/xubuntu/harjoitus3/diff.png )
 
 3.`git blame harjoitus3.md`
 
-![]( blame.png )
+![]( /home/xubuntu/harjoitus3/blame.png )
 
 
 ### e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
