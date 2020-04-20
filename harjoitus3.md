@@ -1,7 +1,7 @@
 # Teemu Heinonen
 https://www.hakaverkko.wordpress.com/palvelinten-hallinta
 
-## Harjoitus 3 - Versionhallinta
+### Harjoitus 3 - Versionhallinta
 
 Harjoitus alkoi 20.4.2020 klo 19:55
  
