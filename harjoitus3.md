@@ -51,7 +51,7 @@ ja siirryin kansioon:
 
 3.`git blame harjoitus3.md`
 
-![]( /home/xubuntu/harjoitus3/blame.png )
+![][blame.png]
 
 
 ### e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
