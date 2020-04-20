@@ -4,7 +4,7 @@ https://www.hakaverkko.wordpress.com/palvelinten-hallinta
 # Harjoitus 3 - Versionhallinta
 
 Harjoitus alkoi 20.4.2020 klo 19:55
-
+# 
 # a) 
 MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
 
