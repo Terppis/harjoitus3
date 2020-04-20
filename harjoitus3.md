@@ -47,18 +47,18 @@ ja siirryin kansioon:
 
 2.`git diff`
  
-![diff]( diff.png )
+![]( /harjoitus3/diff.png )
 
 3.`git blame harjoitus3.md`
 
-![blame.png]( blame.png )
+![]( /harjoitus3/blame.png )
 
 
 ### e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 1. Lisäsin harjoitus.md-tiedostoon kohdan "Testataan tyhmää muutosta"
 2. Annoin komennon: `git reset --hard `
 
-![reset.png]( reset.png )
+![]( /harjoitus3/reset.png )
 
 ### f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
 
@@ -72,7 +72,7 @@ https://hakaverkko.wordpress.com/2020/04/06/ph-harjoitus-1/
 
 2. Tein saltille heimaailma-idempotenssin tiedostolla foo.sls ylempänä mainitun ohjeen mukaan.
 
-![helloworld.png]( helloworld.png )
+![]( /harjoitus3/helloworld.png )
 
 3. Päätin asentaa orjalle htopin, joten tein kansion htop:
 
@@ -84,7 +84,7 @@ loin kansioon tiedoston init.sls:
 
 Tiedoston sisälle laitoin:
 
-![initsls.png]( initsls.png )
+![]( harjoitus3/initsls.png )
 
 4. Otin moduulin käyttöön orjille komennolla:
 
