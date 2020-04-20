@@ -19,9 +19,9 @@ Seurasin harjoituksessa seuraavaa Tero Karvisen ohjetta: http://terokarvinen.com
 	 `sudo apt-get -y install git`
 
 4. Määritin sähköpostini ja nimeni komennoilla:
-	`git config --global user.email "tonystudent@example.com"`
+	`git config --global user.email "kristian.teemu@gmail.com"`
 
-	`git config --global user.name "Tony Student"`
+	`git config --global user.name "Teemu Heinonen"`
 
 5. Annoin komennon:
 	`git config --global credential.helper "cache --timeout=3600"`
@@ -41,10 +41,17 @@ ja siirryin kansioon:
 
 
 ### d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
-1. git log:
+1.`git log`
+
 ![]( log.png )
 
-2. git diff:
+2.`git diff`
+ 
+![]( diff.png )
+
+3.`git blame harjoitus3.md`
+
+![]( blame.png )
 
 
 ### e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
