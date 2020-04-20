@@ -55,5 +55,9 @@ ja siirryin kansioon:
 
 
 ### e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+1. Lisäsin harjoitus.md-tiedostoon kohdan "Testataan tyhmää muutosta"
+2. Annoin komennon: `git reset --hard `
+
+![]( reset.png )
 
 ### f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
