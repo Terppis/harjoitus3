@@ -110,22 +110,16 @@ Olin mahdollisesti laittanut epähuomiossa liian vähän muistia koneen käyttö
 ### Lähteet:
 
 Karvinen, Tero 2020: Configuration Management Systems, H3.
-
 http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
-
-
 Luettu: 20.4.2020
 
 Karvinen, Tero 2016: Publish Your Project with GitHub. 
-
 http://terokarvinen.com/2016/publish-your-project-with-github
 Luettu: 20.4.2020
 
 
 Heinonen, Teemu 2020: Salt-Stack. 
-
 https://hakaverkko.wordpress.com/2020/04/06/ph-harjoitus-1/
-
 Luettu: 20.4.2020
 
 
