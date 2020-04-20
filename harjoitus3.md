@@ -61,3 +61,7 @@ ja siirryin kansioon:
 ![]( reset.png )
 
 ### f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
+
+Seurataan edellisen harjoitukseni kohdan a) ja b) ohjeita:
+
+https://hakaverkko.wordpress.com/2020/04/06/ph-harjoitus-1/
