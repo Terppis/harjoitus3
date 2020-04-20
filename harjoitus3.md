@@ -45,16 +45,22 @@ ja siirryin kansioon:
 
 ![]( log.png )
 
+lokista näkyy milloin muutos on tehty ja kuka sen on tehnyt. Lisäksi nähdään commitin kuvaus "add text to the harjoitus.."
+
 2.`git diff`
  
 ![]( diff.png )
+
+Nähdään muutokset, joita ei ole commitattu vielä githubiin
 
 3.`git blame harjoitus3.md`
 
 ![]( blame.png )
 
+Nähdään kuka on muuttanut kyseistä tiedostoa ja milloin. (muutin käyttäjänimeni muodosta "Terppis" muotoon Teemu Heinonen" harjoituksen aikana.
 
 ### e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+
 1. Lisäsin harjoitus.md-tiedostoon kohdan "Testataan tyhmää muutosta"
 2. Annoin komennon: `git reset --hard `
 
@@ -89,3 +95,34 @@ Tiedoston sisälle laitoin:
 4. Otin moduulin käyttöön orjille komennolla:
 
 `sudo salt '*' state.apply htop`
+
+Minioniin ei saatu yhteyttä ja tässä kohtaa virtuaalikoneeni oli jäätynyt.
+
+Avasin virtuaalikoneen uudelleen sain sen toimimaan, mutta se toimi niin hitaasti, että ajan säästämiseksi jätin ongelmanratkaisun tähän.
+
+Olin mahdollisesti laittanut epähuomiossa liian vähän muistia koneen käyttöön.
+
+###### Harjoitus päättyi 21.4.2020 klo 0.45
+
+### Lähteet:
+
+Karvinen, Tero 2020: Configuration Management Systems, H3.
+
+http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
+
+
+Luettu: 20.4.2020
+
+Karvinen, Tero 2016: Publish Your Project with GitHub. 
+
+http://terokarvinen.com/2016/publish-your-project-with-github
+Luettu: 20.4.2020
+
+
+Heinonen, Teemu 2020: Salt-Stack. 
+
+https://hakaverkko.wordpress.com/2020/04/06/ph-harjoitus-1/
+
+Luettu: 20.4.2020
+
+
