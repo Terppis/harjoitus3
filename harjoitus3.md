@@ -65,3 +65,27 @@ ja siirryin kansioon:
 Seurataan edellisen harjoitukseni kohdan a) ja b) ohjeita:
 
 https://hakaverkko.wordpress.com/2020/04/06/ph-harjoitus-1/
+
+1. Totesin yhteyden masterin ja minionin välillä toimivaksi komennolla:
+
+` sudo salt '*' cmd.run 'whoami'`
+
+2. Tein saltille heimaailma-idempotenssin tiedostolla foo.sls ylempänä mainitun ohjeen mukaan.
+
+![]( helloworld.png )
+
+3. Päätin asentaa orjalle htopin, joten tein kansion htop:
+
+`sudo mkdir htop`
+
+loin kansioon tiedoston init.sls:
+
+`sudoedit init.sls`
+
+Tiedoston sisälle laitoin:
+
+![]( initsls.png )
+
+4. Otin moduulin käyttöön orjille komennolla:
+
+`sudo salt '*' state.apply htop`
